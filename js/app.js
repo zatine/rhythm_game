@@ -113,7 +113,7 @@
 		var array = new Uint8Array(analyser.frequencyBinCount);
 		analyser.getByteFrequencyData(array);
 		var average = getAverage(array);
-        console.log(sourceNode.currentTime);
+      
 		//if the game is running, create a new block
 		if(game.on){
 			//calculate the time the block will begin to fall relative to the time the song started
