@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+</head>
+<body>
+	 <div class="desktop-required">
+        <h1>Sorry!</h1>
+        <p>To play this game you need a computer and a keyboard!</p>
+     </div>
+      <div class="score">
+		<h1></h1>
+      </div>
+      <div class="instructions">
+          <h1>How to Play</h1>
+        <p>Press the right key when the matching square reaches the bottom. You need a keyboard to play.</p><br/>
+          <p>
+              W<br>
+              <img src="img/up.png">
+          </p>
+          <p>
+              A <img src="img/left.png">
+              <img src="img/down.png">
+              <img src="img/right.png">
+              D
+          </p>
+          <p>
+              S
+          </p>
+          <h2 class="message"></h2>
+      </div>
+  
+    <div class="results hide">
+        <h1>Your performance was...
+          <span></span>
+        </h1>
+        <p>Your final score was <span></span></p>
+    </div>
+	
+	<div class="game-container">
+		<canvas width="600" height="800" id="canvas"></canvas>
+		<h2 id="grade"></h2>
+	<ul>
+		<li>Bad: <span class="bad">0</span></li>
+		<li>OK: <span class="ok">0</span></li>
+		<li>Good: <span class="good">0</span></li>
+		<li>Great: <span class="great">0</span></li>
+		<li>Perfect: <span class="perfect">0</span></li>
+	</ul>
+	</div>
+	
+<script src="js/app.js"></script>
+</body>
+</html>

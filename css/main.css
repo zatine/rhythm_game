@@ -1,0 +1,102 @@
+html, body {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom; }
+
+.hide {
+  display: none !important; }
+
+.bad {
+  color: #9b0c00; }
+
+.ok {
+  color: #00d94b; }
+
+.good {
+  color: #005cd9; }
+
+.great {
+  color: #6a00c6; }
+
+.perfect {
+  color: #b200c9; }
+
+.score {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: left; }
+  .score h1 {
+    margin: 0 auto;
+    max-width: 550px; }
+
+.results {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  white-space: pre-line; }
+
+.instructions {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center; }
+  .instructions p {
+    text-align: center;
+    margin: 2px auto;
+    padding: 0;
+    max-width: 550px; }
+
+.game-container {
+  background: rgba(255, 255, 255, 0.4);
+  height: 100vh;
+  margin: 0 auto;
+  width: 800px;
+  padding: 0;
+  text-align: center;
+  overflow: hidden; }
+
+canvas {
+  border: 2px dashed #ccc; }
+
+ul {
+  margin: 0 auto; }
+  ul li {
+    list-style: none;
+    margin: 0 10px;
+    display: inline-block; }
+
+.desktop-required {
+  display: none; }
+
+@media (max-width: 900px) {
+  .instructions, .game-container, .canvas, .ul {
+    display: none; }
+
+  .desktop-required {
+    background: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+    display: block;
+    padding: 10px; } }
+
+/*# sourceMappingURL=main.css.map */
